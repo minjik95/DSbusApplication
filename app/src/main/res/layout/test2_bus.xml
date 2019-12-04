@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/busImage2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/bus"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/plainNo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/busImage2"
+        android:text="" />
+
+
+    <ImageView
+        android:id="@+id/busImage1"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:background="@drawable/bus" />
+
+    <TextView
+        android:id="@+id/plainNo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/busImage1"
+        android:text="" />
+
+
+</RelativeLayout>
